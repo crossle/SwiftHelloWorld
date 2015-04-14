@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		277D62401ADCD4C9003AEC31 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 277D623F1ADCD4C9003AEC31 /* 1.jpg */; };
 		27D998601ADCD3C100D44224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9985F1ADCD3C100D44224 /* AppDelegate.swift */; };
 		27D998621ADCD3C100D44224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D998611ADCD3C100D44224 /* ViewController.swift */; };
 		27D998651ADCD3C100D44224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D998631ADCD3C100D44224 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		277D623F1ADCD4C9003AEC31 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		27D9985A1ADCD3C100D44224 /* SwiftHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9985E1ADCD3C100D44224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27D9985F1ADCD3C100D44224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		27D9985C1ADCD3C100D44224 /* SwiftHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				277D623F1ADCD4C9003AEC31 /* 1.jpg */,
 				27D9985F1ADCD3C100D44224 /* AppDelegate.swift */,
 				27D998611ADCD3C100D44224 /* ViewController.swift */,
 				27D998631ADCD3C100D44224 /* Main.storyboard */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D998651ADCD3C100D44224 /* Main.storyboard in Resources */,
+				277D62401ADCD4C9003AEC31 /* 1.jpg in Resources */,
 				27D9986A1ADCD3C100D44224 /* LaunchScreen.xib in Resources */,
 				27D998671ADCD3C100D44224 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +411,7 @@
 				27D9987B1ADCD3C100D44224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27D9987C1ADCD3C100D44224 /* Build configuration list for PBXNativeTarget "SwiftHelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				27D9987E1ADCD3C100D44224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
